@@ -48,7 +48,7 @@ namespace ProjetoMedicamento
                 if (primeiro.Qtde <= qtde)
                 {
                     qtde -= primeiro.Qtde;
-                    lotes.Dequeue(); // remove lote esgotado
+                    lotes.Dequeue();
                 }
                 else
                 {
